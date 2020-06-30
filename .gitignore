@@ -7,3 +7,4 @@ share/
 pyvenv.cfg
 .env
 db.sqlite3
+djangoProject/djangoProject/__pycache__/
