@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% load static %}
 {% block content %}
 <div class="pf-c-page" id="page-expandable-nav-example">
     <a class="pf-c-skip-to-content pf-c-button pf-m-primary" href="#main-content-page-expandable-nav-example">Skip to content</a>
@@ -10,7 +11,7 @@
           </button>
         </div>
         <a class="pf-c-page__header-brand-link">
-          <img class="pf-c-brand" src="/assets/images/PF-Masthead-Logo.svg" alt="PatternFly logo" />
+          <img class="pf-c-brand" src="{% static 'css/assets/images/PF-Masthead-Logo.svg' %}" alt="PatternFly logo" />
         </a>
       </div>
       <div class="pf-c-page__header-tools">
@@ -72,7 +73,7 @@
             </div>
           </div>
         </div>
-        <img class="pf-c-avatar" src="/assets/images/img_avatar.svg" alt="Avatar image" />
+        <img class="pf-c-avatar" src="{% static 'css/assets/images/img_avatar.svg' %}" alt="Avatar image" />
       </div>
     </header>
     <div id="wt-nav-toggle" class="pf-c-page__sidebar">
