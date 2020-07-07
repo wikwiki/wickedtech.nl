@@ -20,6 +20,10 @@ $( document ).ready(function() {
             ShowSideNav()
         }
       })
+
+    $( "#page-expandable-nav-example-dropdown-button" ).click(function() {
+        $( "#wt-dropdown-toggle" ).toggle();
+    });
       
     console.log( "ready!" );
 });

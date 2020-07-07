@@ -53,14 +53,22 @@
             </div>
           </div>
           <div class="pf-c-page__header-tools-item pf-m-hidden pf-m-visible-on-md">
-            <div class="pf-c-dropdown">
+            <div class="pf-c-dropdown pf-m-align-right">
               <button class="pf-c-dropdown__toggle pf-m-plain" type="button" id="page-expandable-nav-example-dropdown-button" aria-expanded="false">
                 <span class="pf-c-dropdown__toggle-text">John Smith</span>
                 <span class="pf-c-dropdown__toggle-icon">
                   <i class="fas fa-caret-down" aria-hidden="true"></i>
                 </span>
               </button>
-              <div class="pf-c-dropdown__menu" hidden>[Panel contents here]</div>
+              <ul id="wt-dropdown-toggle" class="pf-c-dropdown__menu pf-m-align-right" role="menu" hidden>
+                <section class="pf-c-dropdown__group">
+                  <ul role="none">
+                    <li role="menuitem"><a tabindex="-1" aria-disabled="false" class="pf-c-dropdown__menu-item">My profile</a></li>
+                    <li role="menuitem"><button tabindex="-1" type="button" class="pf-c-dropdown__menu-item">User management</button></li>
+                    <li role="menuitem"><a tabindex="-1" aria-disabled="false" class="pf-c-dropdown__menu-item">Logout</a></li>
+                  </ul>
+                  </section>
+                </ul>
             </div>
           </div>
         </div>
